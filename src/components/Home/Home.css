@@ -1,0 +1,78 @@
+.img-product {
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 25rem;
+  height: 25rem;
+  margin-top: 1rem;
+}
+.img-shoes {
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 15rem;
+  max-height: 15rem;
+  margin-top: 1rem;
+}
+
+.img-product:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+}
+.button-buy {
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buy-price {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.button-buy:hover {
+  color: red;
+}
+p {
+  color: white;
+}
+.welcoming-par {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  margin-top: 5rem;
+  max-width: 30rem;
+  margin-bottom: 10rem;
+  padding-left: 7rem;
+  gap: 5rem;
+}
+.welcoming-par > h1 {
+  font-size: 30px;
+}
+.welcoming-par > p {
+  font-size: 20px;
+}
+.product-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  font-size: large;
+  padding: 2rem;
+}
