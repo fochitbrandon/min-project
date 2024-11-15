@@ -1,4 +1,5 @@
 import "./Home.css"
+
 const Home=()=>{
     return(
         <div className="main-container" >
@@ -19,6 +20,7 @@ const Home=()=>{
                <div className="buy-price"> <h1>price= 10$</h1>
                 <button className="button-buy">Buy</button></div>
             </li>
+
             <div>
                 
             <li>
